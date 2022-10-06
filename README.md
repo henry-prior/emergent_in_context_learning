@@ -15,13 +15,14 @@ the paper for an overview of the experimental design.
 
 ## Installation
 
-To install the necessary requirements:
+To install the necessary requirements, from the directory this was cloned into:
 
 ```shell
 python3 -m venv eicl_venv
 source eicl_venv/bin/activate
 pip install --upgrade pip
-pip install -r ./emergent_in_context_learning/requirements.txt
+pip install -r requirements.txt
+pip install .
 ```
 
 ## Usage
